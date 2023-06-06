@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.*;
 
-public class javaHover {
+public class JavaHover {
 
     @BeforeAll
     static void beforeAll() {
