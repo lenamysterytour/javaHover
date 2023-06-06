@@ -18,7 +18,7 @@ public class javaHover {
     }
 
     @Test
-    void JavaHoverTest() {
+    void javaHoverTest() {
 
         //открыть главную страницу
         open("https://github.com");
