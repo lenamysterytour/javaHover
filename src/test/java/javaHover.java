@@ -25,7 +25,7 @@ public class javaHover {
         //выбрать меню Solutions>Enterprise командой Hover
         $(byTagAndText("button", "Solutions")).hover();
         $(byText("Enterprise")).click();
-//убедиться, что загрузилась нужная страница (например, заголовок "Build like the best"
+//убедиться, что загрузилась нужная страница (например, заголовок "Build like the best")
         $(byTagAndText("h1", "Build like the best")).shouldBe(visible);
     }
 
